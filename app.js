@@ -2,7 +2,7 @@
 function btn(){
     const inputValue = document.getElementById("inputText").value;
     document.querySelector("#returnValue").innerHTML = `You  Wrote ${inputText.value} &` 
-    document.querySelector("#counter").innerHTML = "You Have Written " + inputValue.length + " Digits";
+    document.querySelector("#counter").innerHTML = "You Have Written " + inputValue.length + " Characters";
 
 }
 
